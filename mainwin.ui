@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWIn</class>
+ <widget class="QMainWindow" name="MainWIn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1038</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWIn</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_17" stretch="10,1">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Matrix</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout" stretch="1,2,1,2,1,2">
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>h11</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h11">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>h21</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h21">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>h31</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h31">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,2,1,2,1,2">
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>h12</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h12">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>h22</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h22">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>h32</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h32">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,2,1,2,1,2">
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>h13</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h13">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string>h23</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h23">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>h33</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="le_h33">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_16">
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="title">
+             <string>Quaternion</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_4">
+               <item>
+                <widget class="QLabel" name="label_13">
+                 <property name="text">
+                  <string>X</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_X">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_5">
+               <item>
+                <widget class="QLabel" name="label_15">
+                 <property name="text">
+                  <string>Y</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_Y">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_6">
+               <item>
+                <widget class="QLabel" name="label_14">
+                 <property name="text">
+                  <string>Z</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_Z">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <item>
+                <widget class="QLabel" name="label_16">
+                 <property name="text">
+                  <string>W</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_W">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_4">
+            <property name="title">
+             <string>R-P-Y</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_8">
+               <item>
+                <widget class="QLabel" name="label_11">
+                 <property name="text">
+                  <string>Roll</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_Roll">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_9">
+               <item>
+                <widget class="QLabel" name="label_8">
+                 <property name="text">
+                  <string>Pitch</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_Pitch">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <widget class="QLabel" name="label_12">
+                 <property name="text">
+                  <string>Yaw</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_Yaw">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_11">
+               <item>
+                <widget class="QRadioButton" name="rb_rpy_degree">
+                 <property name="text">
+                  <string>degree</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QRadioButton" name="rb_rpy_radian">
+                 <property name="text">
+                  <string>radian</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_5">
+            <property name="title">
+             <string>Euler Angle</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_12">
+               <item>
+                <widget class="QLabel" name="label_20">
+                 <property name="text">
+                  <string>a</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_a">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_13">
+               <item>
+                <widget class="QLabel" name="label_21">
+                 <property name="text">
+                  <string>b</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_b">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_14">
+               <item>
+                <widget class="QLabel" name="label_22">
+                 <property name="text">
+                  <string>c</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="le_c">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_15">
+               <item>
+                <widget class="QRadioButton" name="rb_euler_degree">
+                 <property name="text">
+                  <string>degree</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QRadioButton" name="rb_euler_radian">
+                 <property name="text">
+                  <string>radian</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QPushButton" name="pb_calculate">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Calculate</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pb_reset">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Reset</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1038</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
